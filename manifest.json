@@ -3,6 +3,16 @@
   "description": "stop showing me crap",
   "manifest_version": 2,
   "version": "2.0",
+  "background": {
+    "scripts": [
+        "background.js"
+      ],
+      "persistent": true
+  },
+  "permissions": [ "contextMenus", "tabs", "storage", "activeTab"],
+  "browser_action": {
+    "default_title": "Mercury Reader"
+  },
   "permissions": [
     "activeTab"
   ],
@@ -11,7 +21,8 @@
       "matches": [
         "https://twitter.com/*"
       ],
-      "js": ["jquery.min.js", "twitter-blanket.js"]
+      "js": ["jquery.min.js", "twitter-blanket.js" ],
+      "css": ["ft-styles.css", "txtwav.min.css"]
     }
   ],
   "permissions": ["tabs"]
