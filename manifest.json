@@ -11,7 +11,7 @@
   },
   "permissions": [ "contextMenus", "tabs", "storage", "activeTab"],
   "browser_action": {
-    "default_title": "Mercury Reader"
+    "default_title": "Fuck Twitter"
   },
   "permissions": [
     "activeTab"
