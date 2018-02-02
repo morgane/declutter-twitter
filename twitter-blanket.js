@@ -1,7 +1,7 @@
 $(function() {
 
   coverMeLikeABlanket = function() {
-    $('head').append('<style id="everyoneChill">.dashboard-left,.dashboard-right,.moments,.SidebarCommonModules,.ProfileTweet-actionCount { display: none };</style>');
+    $('head').append('<style id="everyoneChill">.dashboard-left,.dashboard-right,.moments,.SidebarCommonModules,.ProfileTweet-actionCount,[id^=stream-item-recap_entry] { display: none };</style>');
   };
 
   coverMeLikeABlanket(".dashboard-left", '');
@@ -25,7 +25,6 @@ $(function() {
       spanWrapHelper(el, text);
     }
   }
-
 
   chrome.runtime.onMessage.addListener((message) => {
     switch (message) {
