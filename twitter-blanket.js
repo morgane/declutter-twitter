@@ -1,11 +1,4 @@
 $(function() {
-
-  coverMeLikeABlanket = function() {
-    $('head').append('<style id="everyoneChill">.dashboard-left,.dashboard-right,.moments,.SidebarCommonModules,.ProfileTweet-actionCount,[id^=stream-item-recap_entry],[data-component-context="suggest_activity_tweet"] { display: none };</style>');
-  };
-
-  coverMeLikeABlanket(".dashboard-left", '');
-
   txtwav = function() {
     var textWaveElements = document.getElementsByClassName('txtwav');
 
