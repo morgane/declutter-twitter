@@ -4,7 +4,8 @@
 .SidebarCommonModules,
 .ProfileTweet-actionCount,
 [id^=stream-item-recap_entry],
-[data-component-context="suggest_activity_tweet"]
+[data-component-context="suggest_activity_tweet"],
+[data-component-context="suggest_recycled_tweet_inline"]
 {
   display: none !important;
 }
