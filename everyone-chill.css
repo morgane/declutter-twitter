@@ -3,6 +3,7 @@
 .moments,
 .SidebarCommonModules,
 .ProfileTweet-actionCount,
+.promoted-tweet,
 [id^=stream-item-recap_entry],
 [data-component-context="suggest_activity_tweet"]
 {
